@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(to left, #000000, #4f3b3b, #6e3f3f);
+}
+
+.center {
+    text-align: center;
+}
+
+.register{
+    color: rgb(30, 131, 72);
+}
+
+.form {
+    color: #ff9696;
+}
+
+.back {
+    position: absolute;
+    top: 0.8%;
+    left: 0.5%;
+}
+
+.back img {
+    height: 60px;
+    width: 60px;
+}
+
+.submit {
+    display: block;
+    margin-left:auto;
+    margin-right: 12px;
+    width: 60px;
+    height: 20px;
+}

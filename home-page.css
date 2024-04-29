@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to right, #000000, #4f3b3b, #6e3f3f);
+}
+
+.title {
+    color: aquamarine;
+}
+
+.subtitle {
+    color: orange;
+}
+
+.picture img {
+    height: 170px;
+    width: 250px;
+}
+
+.text {
+
+    color: rgb(151, 187, 33);
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
+.youtube {
+    position: absolute;
+    top: 1.5%;
+    left: 0.586%;
+}
+
+.youtube img {
+    height: 90px;
+    width: 100px;
+}
+
+.login {
+    position: absolute;
+    top: 1.5%;
+    left: 90%;
+}
+
+.login img {
+    height: 90px;
+    width: 100px;
+}

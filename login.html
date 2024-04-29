@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="login.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="register center">Cadastro Pessoal</h1>
+    <a href="home-page.html ">
+        <button id="back" class="back">
+            <img src="seta.png" alt="back">
+        </button>
+    </a>
+    <hr>
+    <div class="form">
+        <form>
+            <fieldset>
+                <label for="name">Nome:<br></label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="address">Endereço:<br></label>
+                <input type="text" id="address" name="address" required>
+                <br>
+                <label for="cpf">CPF:<br></label>
+                <input type="text" id="cpf" name="cpf" required maxlength="11">
+                <input class="submit" type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
