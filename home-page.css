@@ -29,20 +29,36 @@ body {
     position: absolute;
     top: 1.5%;
     left: 0.586%;
+    background: transparent;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.youtube:hover {
+    transform: scale(1.1);
 }
 
 .youtube img {
     height: 90px;
     width: 100px;
+    cursor: pointer;
 }
 
 .login {
     position: absolute;
     top: 1.5%;
     left: 90%;
+    background: transparent;
+    border: none;
+    transition: transform 0.3 ease;
+}
+
+.login:hover {
+    transform: scale(1.1);
 }
 
 .login img {
     height: 90px;
     width: 100px;
+    cursor: pointer;
 }
