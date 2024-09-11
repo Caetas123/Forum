@@ -1,3 +1,20 @@
+<?php
+
+$servename = "localhost";
+$username = "root";
+$password = "";
+$dbname = "fórum";
+
+// Cria a conexão
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Verifica a conexão
+if (!$conn) {
+    die("Falha na conexão: " . mysqli_connect_error());
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -20,17 +37,17 @@
     <div class="form">
         <form>
             <fieldset>
-                <label for="name">Nome:<br></label>
+                <div>
+                <label for="name">Nome:</label>
                 <input class="labelinput" type="text" id="name" name="name" required>
-                <br>
-                <label for="email">Email:<br></label>
+                <label for="email">Email:</label>
                 <input class="labelinput" type="email" id="email" name="email" required>
-                <br>
-                <label for="cpf">CPF:<br></label>
+                <label for="cpf">CPF:</label>
                 <input class="labelinput" type="text" id="cpf" name="cpf" required maxlength="11">
-                <br>
-                <label for="address">Endereço:<br></label>
+                <label for="address">Endereço:</label>
                 <input class="labelinput" type="text" id="address" name="address" required>
+                <label for="">Senha:</label>
+                <input class="labelinput" type="text" id="password" name="password" required>
                 <input class="submit" type="submit" value="Enviar">
             </fieldset>
         </form>

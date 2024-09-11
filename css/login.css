@@ -23,10 +23,15 @@ body {
     position: relative;
     right: 4px;  
 }
+ 
+label {
+    display: block;
+    white-space: nowrap;
+}
 
 .labelinput {
     margin-bottom: 8px;
-    margin-top: 1px
+    margin-top: 1px;
 }
 
 .back {

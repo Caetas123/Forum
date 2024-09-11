@@ -1,3 +1,20 @@
+<?php
+
+$servename = "localhost";
+$username = "root";
+$password = "";
+$dbname = "fórum";
+
+// Cria a conexão
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Verifica a conexão
+if (!$conn) {
+    die("Falha na conexão: " . mysqli_connect_error());
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -62,7 +79,7 @@
                 <img src="img/youtube.png" alt="youtube">
             </button>
         </a>
-        <a href="login.html">
+        <a href="login.php">
             <button id="login" class="login">
                 <img src="img/1.png" alt="login">
             </button>
