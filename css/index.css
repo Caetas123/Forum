@@ -1,7 +1,9 @@
 body {
     background-image: linear-gradient(to right, #000000, #4f3b3b, #6e3f3f);
 }
-
+.title-container{
+    text-align: center;
+}
 .title {
     color: aquamarine;
 }
@@ -9,23 +11,22 @@ body {
 .subtitle {
     color: orange;
 }
-
+.picture {
+    text-align: center;
+}
 .picture img {
     height: 170px;
     width: 250px;
 }
 
 .text {
-
     color: rgb(151, 187, 33);
     text-align: justify;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.center {
-    text-align: center;
-}
+
 
 .youtube {
     position: absolute;
